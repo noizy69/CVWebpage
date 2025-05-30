@@ -83,7 +83,25 @@ footer {
   font-size: 0.95rem;
   border-top: 1px solid #222;
 }
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
 
+nav a {
+  color: #6A5ACD;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #fff;
+}
 /* Responsive */
 @media (max-width: 600px) {
   main {

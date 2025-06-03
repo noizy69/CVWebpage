@@ -102,6 +102,12 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+section ul ul {
+  margin-left: 1.5rem;
+  list-style: disc;
+  color: #b0b0b0;
+  font-size: 0.98rem;
+}
 /* Responsive */
 @media (max-width: 600px) {
   main {
